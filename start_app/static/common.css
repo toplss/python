@@ -1,0 +1,35 @@
+/* Top Menu 스타일 */
+.top-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.top-menu li {
+    margin: 0 10px;
+    list-style: none;
+}
+
+.top-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* 마우스 오버 시 스타일 변경 */
+.top-menu a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* 현재 페이지 스타일 */
+.top-menu .active {
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+}
