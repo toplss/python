@@ -10,3 +10,10 @@ pip3 install django
 
 # 장고 설치 확인 하기 및 버전확인
 python3 -m django --version
+
+
+# 프로젝트 생성
+django-admin startproject
+
+# 프로젝트 run
+[폴더 이동후] python3 manage.py runserver
