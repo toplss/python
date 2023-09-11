@@ -17,3 +17,6 @@ django-admin startproject
 
 # 프로젝트 run
 [폴더 이동후] python3 manage.py runserver
+
+## mysql 연동
+python3 -m pip install PyMySQL
