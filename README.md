@@ -18,11 +18,13 @@ django-admin startproject
 # 프로젝트 run
 [폴더 이동후] python3 manage.py runserver
 
-## mysql 연동 
-python3 -m pip install PyMySQL
-
-## mysql 버전 문제시 mysqlclient 설치
+## mysql 연동
 pip install mysqlclient
 
 ## pip install mysqlclient 설치시  pkg-config 관련 error 발생시
 brew install mysql pkg-config
+
+
+## mysql 버전문제 발생시 5.7 
+pip install mysql-connector-python
+// 'ENGINE': 'mysql.connector.django'
