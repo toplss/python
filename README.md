@@ -24,5 +24,5 @@ python3 -m pip install PyMySQL
 ## mysql 버전 문제시 mysqlclient 설치
 pip install mysqlclient
 
-# pip install mysqlclient 설치시  pkg-config 관련 error 발생시
+## pip install mysqlclient 설치시  pkg-config 관련 error 발생시
 brew install mysql pkg-config
